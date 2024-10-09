@@ -96,7 +96,7 @@ WSGI_APPLICATION = 'domi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'domi',
@@ -105,7 +105,7 @@ WSGI_APPLICATION = 'domi.wsgi.application'
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}"""
+}
 
 DATABASES = {
     'default': dj_database_url.config(default=os.getenv('DATABASE_URL'))
