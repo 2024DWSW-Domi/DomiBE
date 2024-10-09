@@ -100,16 +100,16 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'domi',
-        'USER': 'khj',
+        'USER': 'root',
         'PASSWORD': '0906',
         'HOST': 'postgresql',
         'PORT': '5432',
     }
 }
 
-DATABASES = {
+'''DATABASES = {
     'default': dj_database_url.config(default=os.getenv('DATABASE_URL'))
-}
+}'''
 
 """db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)"""
