@@ -1,7 +1,8 @@
-
+aiobotocore==2.15.1
+aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.9
-aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
+aioitertools==0.7.1
 aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 aiosqlite @ file:///C:/b/abs_9djc_0pyi3/croot/aiosqlite_1683773915844/work
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
