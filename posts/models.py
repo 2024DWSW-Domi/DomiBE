@@ -8,14 +8,22 @@ class Category(models.Model):
 
     def __str__(self):
         return f'{self.name}'
+    
+class Day(models.Model):
+    name = models.CharField(max_length=10, unique=True)
+
+    def __str__(self):
+        return self.name
 
 class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author')
     profile = models.ForeignKey(Profile, on_delete=models.CASCADE, blank=True, related_name='author_profile')
     title = models.CharField(max_length=128)
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name='posts')
+    price = models.IntegerField()
     body = models.TextField()
     image = models.ImageField(upload_to='post/', default='default.png')
+    days = models.ManyToManyField(Day, related_name='posts')
     likes = models.ManyToManyField(User, related_name='like_posts')
     published_date = models.DateTimeField(default=timezone.now)
 
