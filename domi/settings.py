@@ -102,7 +102,7 @@ DATABASES = {
         'NAME': 'domi',
         'USER': 'khj',
         'PASSWORD': '0906',
-        'HOST': 'localhost',
+        'HOST': 'postgresql',
         'PORT': '5432',
     }
 }
