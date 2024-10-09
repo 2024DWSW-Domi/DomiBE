@@ -80,9 +80,11 @@ diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630
 dill @ file:///C:/ci_311/dill_1676433323862/work
 distributed @ file:///C:/b/abs_7509xfv227/croot/distributed_1686866088894/work
 distro==1.9.0
+dj-database-url==2.2.0
 Django==5.0.3
 django-apscheduler==0.6.2
 django-cors-headers==4.4.0
+django-environ==0.11.2
 django-filter==24.3
 djangorestframework==3.15.2
 docstring-to-markdown @ file:///C:/ci_311/docstring-to-markdown_1677742566583/work
@@ -101,6 +103,7 @@ future @ file:///C:/ci_311_rebuilds/future_1678998246262/work
 gensim @ file:///C:/ci_311/gensim_1677743037820/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci_311/greenlet_1676436788118/work
+gunicorn==23.0.0
 h11==0.14.0
 h5py @ file:///C:/ci_311/h5py_1676504676103/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
@@ -229,6 +232,7 @@ prometheus-client @ file:///C:/ci_311/prometheus_client_1679591942558/work
 prompt-toolkit @ file:///C:/ci_311/prompt-toolkit_1676425940920/work
 Protego @ file:///tmp/build/80754af9/protego_1598657180827/work
 psutil @ file:///C:/ci_311_rebuilds/psutil_1679005906571/work
+psycopg2-binary==2.9.9
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
 py-cpuinfo @ file:///Users/ktietz/demo/mc3/conda-bld/py-cpuinfo_1629480366017/work
@@ -364,6 +368,7 @@ webencodings==0.5.1
 websocket-client @ file:///C:/ci_311/websocket-client_1676426063281/work
 Werkzeug @ file:///C:/b/abs_8578rs2ra_/croot/werkzeug_1679489759009/work
 whatthepatch @ file:///C:/ci_311/whatthepatch_1678402578113/work
+whitenoise==6.7.0
 widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
 win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
 wrapt @ file:///C:/ci_311/wrapt_1676432805090/work
