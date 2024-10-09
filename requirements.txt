@@ -1,5 +1,4 @@
-aiobotocore==2.15.1
-aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
+
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.9
 aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
